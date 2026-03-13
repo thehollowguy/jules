@@ -1,0 +1,21 @@
+[package]
+name    = "lang_skeleton"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rand = "0.8"
+sha2 = "0.10"
+flate2 = "1.0"
+ureq = "2.7"
+toml = "0.7"
+argon2 = "0.4"
+aes-gcm = "0.10"
+base64 = "0.21"
+hex = "0.4"
+
+[[bin]]
+name = "lang"
+path = "main.rs"
